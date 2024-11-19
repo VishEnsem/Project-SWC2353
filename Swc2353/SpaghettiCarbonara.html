@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Char Kway Teow - Recip3ForLife</title>
+    <link rel="stylesheet" href="styles.css">
+	<style> 
+		* { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        body { 
+            font-family: Arial, sans-serif; 
+            background-image: url('https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg');
+            background-size: cover;
+            color: #333; 
+        }
+
+        header { 
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul { 
+            list-style: none; 
+            display: flex; 
+            gap: 15px;
+        }
+        nav ul li a { 
+            text-decoration: none; 
+            color: #333; 
+            font-weight: bold;
+        }
+        nav ul li a:hover { 
+            color: #777; 
+        }
+
+        .main-container { 
+            display: flex; 
+            justify-content: center; 
+            align-items: flex-start; 
+            padding: 50px 20px;
+            color: white;
+        }
+
+        .image-container { 
+            width: 50%; 
+            display: flex; 
+            justify-content: center; 
+        }
+        .image-container img { 
+            width: 80%; 
+            border: 5px solid #ccc; 
+            border-radius: 10px; 
+        }
+
+        .recipe-details { 
+            width: 40%; 
+            padding: 20px; 
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+        }
+        .recipe-title { 
+            font-size: 36px; 
+            font-weight: bold; 
+            margin-bottom: 10px; 
+            color: #FFD700; 
+        }
+        .recipe-time { 
+            font-size: 18px; 
+            margin-bottom: 20px;
+            color: #FFF;
+        }
+
+        .ingredients, .instructions {
+            background: #fff;
+            color: #333;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        .ingredients h3, .instructions h3 { 
+            font-size: 24px; 
+            margin-bottom: 10px; 
+            color: #FFD700; 
+        }
+        ul, ol { 
+            padding-left: 20px; 
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #ccc;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-links li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .social-media a img {
+            width: 30px;
+            margin-right: 10px;
+        }</style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Recip3ForL1fe</h1></div>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Recipe.html">Recipe</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="image-container">
+            <img src="https://www.vincenzosplate.com/wp-content/uploads/2023/04/1500x1500-Photo-26_2489-How-to-Make-Spaghetti-alla-Carbonara-in-2023-V1.jpg" alt="Spaghetti Carbonara">
+        </div>
+        <div class="recipe-details">
+            <div class="recipe-title">Spaghetti Carbonara</div>
+            <div class="recipe-time">Preparation: 10 mins, Cooking: 20 mins</div>
+            <div class="ingredients">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>Spaghetti - 200g</li>
+                    <li>Eggs - 2</li>
+                    <li>Pancetta - 100g</li>
+                    <li>Parmesan Cheese - 50g</li>
+                    <li>Black Pepper - to taste</li>
+                </ul>
+            </div>
+            <div class="instructions">
+                <h3>Instructions</h3>
+                <ol>
+                    <li>Boil the spaghetti in salted water.</li>
+                    <li>Cook the pancetta in a pan until crispy.</li>
+                    <li>In a bowl, whisk eggs and add cheese.</li>
+                    <li>Mix spaghetti with pancetta, then add egg mixture.</li>
+                    <li>Serve with extra cheese and black pepper.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="Contact.html">[Contact]</a></li>
+            <li><a href="PrivacyPolicy.html">[Privacy Policy]</a></li>
+            <li><a href="About.html">[About]</a></li>
+        </ul>
+        <div class="social-media">
+               <a href="https://www.facebook.com/profile.php?id=100088789006799"><img src="https://image.similarpng.com/very-thumbnail/2020/05/Icon-Facebook-In-circle-PNG.png"></a>
+               <a href="https://www.tiktok.com/@vishhhhhhhhh123"><img src="https://image.similarpng.com/very-thumbnail/2020/10/Tiktok-icon-logo-premium-vector-PNG.png"></a>
+               <a href="https://www.instagram.com/vishy_fishy123/"><img src="https://image.similarpng.com/very-thumbnail/2020/05/Icon-Instagram-In-circle-PNG.png"></a>
+        </div>
+    </footer>
+</body>
+</html>
